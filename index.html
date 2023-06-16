@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto3</title>
+    <link rel="stylesheet" href="lib/css-bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">JorgiousS</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse pt-2 justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link " href="#sobre-o-restaurante">
+                            <i class="bi bi-house-door me-1"></i>
+                            sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#eventos">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Novidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#Produtos">
+                            <i class="bi bi-card-text me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="img/slide1.jpg" alt="foto do local">
+                    </div>
+                    <div class="carousel-item"data-bs-interval="3000">
+                        <img src="img/slide3.jpg" alt="taças com vinho">
+                    </div>
+                </div>
+                <button  type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button  type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></buttons>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://1.bp.blogspot.com/-DqXfxhGHJEs/Wyw_jHr-nCI/AAAAAAAAAZg/UMepbtlUbbQo-hJB0h7hFCftj1CVcy93ACLcBGAs/s1600/cecile-new-gamer-31.jpg" class="d-block w-100 rounded" alt="foto do local">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">sobre <span class="text-colorde">a loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dicta error neque aliquam molestias, beatae voluptates tempora nobis fugiat quo labore quisquam at voluptatibus, quibusdam fuga consequatur consequuntur. Laudantium, explicabo.
+                            </p>
+                            <h3 class="section-title">sobre <span class="text-colorde">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur nemo quod architecto non aliquam, quo nisi expedita odio commodi molestias modi, optio, aperiam nam vero esse laboriosam? Omnis, ex.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <sction id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mt-4   ">Novidades <span class="text-colorde">De Dezembro</span></h2>
+                </div>
+                <div class="row mt-4">  
+                    <div class="col-md-4">
+                        <img src="https://image.api.playstation.com/vulcan/img/rnd/202010/2217/p3pYq0QxntZQREXRVdAzmn1w.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colorde fs-4">
+                            God Of War
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus qui porro minus molestiae ipsum libero eum ab, vel odit quae, quod dolores? Earum nam dolorem deleniti minima in quas quae.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://www.adrenaline.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=910&height=568&format=webp&quality=91&imagick=/wp-content/uploads/2023/03/the-last-of-us-part-i_24.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colorde fs-4">
+                            The Last OF US
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus qui porro minus molestiae ipsum libero eum ab, vel odit quae, quod dolores? Earum nam dolorem deleniti minima in quas quae.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colorde fs-4">
+                            Red Dead
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus qui porro minus molestiae ipsum libero eum ab, vel odit quae, quod dolores? Earum nam dolorem deleniti minima in quas quae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </sction>
+        <section id="Produtos" class="pt-4 pb-4">
+            <div class="container">
+                <div class="roe">
+                    <h2 class="section-title text-center mb-5 mt-5">
+                        <span class="text-colorde">Produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Games" class="fw-bold text-start nav-link text-colorde active">Games</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#PCS" class="fw-bold text-start nav-link text-colorde ">PC's</button>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="Games">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://s2.glbimg.com/mJ1UnckI9QnlOXZ0Zhn_G6HRpJY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/X/J/s6QTQDRSAJW1e9s29ARA/grand-theft-auto-5-gta-online-playstation-5-ps5-xbox-series-x-s.jpg" alt="Games">
+                                        <h5 class="text-colorde fw-bold mt-2">GTA</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                        <strong>R$ 200,00</strong>
+                                        <br>
+                                        <button type="button" class="btn btn-success mt-3 mb-3 p2">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://files.tecnoblog.net/wp-content/uploads/2019/07/cs-go-001-1.jpg" alt="Games">
+                                        <h5 class="text-colorde fw-bold mt-2">CS-GO</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                        <strong>R$ 200,00</strong>
+                                        <br>
+                                        <button type="button" class="btn btn-success mt-3 mb-3 p2">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/valwide_2560x1440-99f1632f76e12ddc17d4245a74f29fc5" alt="Games">
+                                        <h5 class="text-colorde fw-bold mt-2">Valorant</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                        <strong>R$ 200,00</strong>
+                                        <br>
+                                        <button type="button" class="btn btn-success mt-3 mb-3 p2">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="PCS">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/prod1.jpg" alt="pc gamer">
+                                        <h5 class="text-colorde fw-bold mt-2"> AMD white</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                        <strong>R$ 200,00</strong>
+                                        <br>
+                                        <button type="button" class="btn btn-success mt-3 mb-3 p2">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="img/prod2.jpg" alt="pc gamer">
+                                        <h5 class="text-colorde fw-bold mt-2">AMD black</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                        <strong>R$ 200,00</strong>
+                                        <br>
+                                        <button type="button" class="btn btn-success mt-3 mb-3 p2">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">fael <span class="text-colorde">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-2">
+                                <label for="nome" class="form-label fw-bold text-colorde">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-2">
+                                <label for="email" class="form-label fw-bold text-colorde">Seu email</label>
+                                <input type="email" id="email" class="form-control"required>
+                            </div>
+                            <div class="mb-2">
+                                <label for="telefone" class="form-label fw-bold text-colorde">Seu telefone: (opicinal)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-2">
+                                <label for="mensagem" class="form-label fw-bold text-colorde">Sua mensagem:</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 p-5 " >
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colorde">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 ">
+                                    <a href="#"></a>
+                                    <i class="bi bi-facebook text-colorde" ></i>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#"></a>
+                                    <i class="bi bi-instagram text-colorde" ></i>
+                                </li>
+                                <li class="fs-5 ">
+                                    <a href="#"></a>
+                                    <i class="bi bi-whatsapp text-colorde" ></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colorde">
+                                <i class="bi bi-cursor-fill"></i>
+                                endereço
+                            </h3>
+                            <p>
+                                Rua ancio borges n° 1145 - Sao Paulo,SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="lib/js-bootstrap.js"></script>
+</body>
+</html>

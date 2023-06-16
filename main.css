@@ -1,0 +1,71 @@
+.navbar{
+    background-color:  rgba(75, 19, 179);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color:  rgba(75, 19, 179);
+}
+
+#eventos img{
+    width: 300px;
+    height: 300px;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-brand{
+    font-family: 'Bungee', cursive;
+}
+
+.navbar-toggler{
+    background-color: rgb(187, 168, 224);
+}
+
+.section-title{
+    font-family: 'Bungee', cursive;
+}
+
+
+#sobre-loja, #Produtos{
+background-color:rgb(187, 168, 224);
+}
+
+.text-colorde{
+    color:  rgba(75, 19, 179);     
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color:  rgba(75, 19, 179);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color:  rgba(75, 19, 179);
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+
+    #redes{
+        margin-left: 0;
+    }
+}
+
